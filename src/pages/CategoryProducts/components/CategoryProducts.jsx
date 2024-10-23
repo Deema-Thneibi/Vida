@@ -39,7 +39,7 @@ export default function CategoryProducts() {
 
   useEffect(() => {
     getCategoryProducts();
-  }, []);
+  }, [id]);
 
 
   if (isLoader) {
